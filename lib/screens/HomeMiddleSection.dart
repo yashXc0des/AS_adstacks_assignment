@@ -130,7 +130,7 @@ class HomeMiddleSection extends StatelessWidget {
                             Expanded(
                               child: Container(
                                 decoration: BoxDecoration(
-                                  color: Colors.black,
+                                  color: Color(0xFF1B254A),
                                   borderRadius: BorderRadius.circular(15),
                                 ),
                                 padding: EdgeInsets.all(20),
@@ -177,7 +177,7 @@ class HomeMiddleSection extends StatelessWidget {
                             Expanded(
                               child: Container(
                                 decoration: BoxDecoration(
-                                  color: Colors.black,
+                                  color: Color(0xFF1B254A),
                                   borderRadius: BorderRadius.circular(15),
                                 ),
                                 padding: EdgeInsets.all(20),
