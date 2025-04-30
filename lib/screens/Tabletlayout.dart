@@ -60,8 +60,6 @@ class _TabletLayoutState extends State<TabletLayout> {
   void _toggleWorkspaceSelection() {
     setState(() {
       _isWorkspaceSelected = !_isWorkspaceSelected;
-      _isAdstacksExpanded = _isWorkspaceSelected;
-      _isFinanceExpanded = _isWorkspaceSelected;
     });
   }
 
@@ -339,7 +337,7 @@ class _TabletLayoutState extends State<TabletLayout> {
                               ),
                             ),
                           );
-                        }).toList(),
+                        }),
 
                         // Workspace section
                         Container(
